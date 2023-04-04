@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #result {
+      border: 1px solid black;
+      width:150px;
+      height:60px;
+      padding: 5px;
+      margin: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>폼에 접근하여 최대공약수 구하기</h1>
+  <p>두 수를 입력한 후 [계산하기]를 클릭하세요.</p>
+  <form>
+    <label for="number1">첫 번째 수 : </label>
+    <input type="text" id="number1" placeholder="첫 번째 수">
+    <label for="number2">두 번째 수 : </label>
+    <input type="text" id="number2" placeholder="두 번째 수">
+    <button type="button" id="calc">계산하기</button>
+  </form>
+  <div id="result"></div>  
+  <script src="dom.js"></script>
+</body>
+</html>
